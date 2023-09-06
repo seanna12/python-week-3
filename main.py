@@ -103,7 +103,7 @@ new_age = 51
 # first_name
 first_name = "Julia"
 # last_name
-last_name = "Roberts"
+last_name = "Robertson"
 # full_name
 # Assign the value "Julia" to first_name, and for last_name, assign the value "Roberts". Finally, build the variable full_name by concatenating these two variables (remember to add a space in between)
 
