@@ -225,14 +225,15 @@ print(f"You have earned {new_points} points! In total, you have accumulated {tot
 # new_points = 350
 
 #################################Mathematical operations####################
+import math
 # slides 20 -24
-# #addition
-# #multiplication
-# #division
-# #modulo
-# #powers
-# #get the max and min of a number
-# #round a number
+# #addition +
+# #multiplication *
+# #division /
+# #modulo %
+# #powers **
+# #get the max and min of a number print(max(a,b))
+# #round a number print(round())
 # # absolute value
 # # order of operations
 # #to do more you need to import special math libraries from python
@@ -247,48 +248,92 @@ print(f"You have earned {new_points} points! In total, you have accumulated {tot
 # ### Addition
 # 1. Add the numbers 145 and 256.
 # 2. What is the sum of 873 and 1,287?
+aa = 145
+bb = 256
+print(aa + bb)
 
+a1 = 873
+b1 = 1287 
+result1 = b1 - a1 
+print(result1)
 # ### Multiplication
 # 3. Multiply 13 by 24.
 # 4. What is the product of 17 and 19?
-
+print(int(13 * 24))
+a2 = 17
+b2 = 19
+result2 = a2 * b2 
+print(result2)
 # ### Division
 # 5. Divide 528 by 6.
 # 6. What is the result when 1,234 is divided by 4?
-
+print(528/6)
+a3 = 1234
+b3 = 4
+result3 = a3/b3
+print("The result of 1,234 divided by 4 is {}" .format(result3))
 # ### Modulo
 # 7. What is the remainder when 200 is divided by 7?
 # 8. If \( x = 145 \) modulo 12, find the value of \( x \).
-
+x = 145
+print(x/12)
+a4 = 200
+b4 = 7
+print(a4%b4)
+print(145%12)
 # ### Powers
 # 9. Calculate \( 7^3 \).
 # 10. Find the value of \( 5^4 \).
-
+print(7^3)
+a5 = 5
+b5 = 4
+print(a5^b5)
 # ### Get the max and min of a number
 # 11. Which is greater: 345 or 453?
 # 12. Out of 1,002 and 1,020, which is the lesser number?
-
+a6 = 345
+b6 = 453
+print(max(a6,b6))
+a7 = 1002
+b7 = 1020
+print(min(a7,b7))
 # ### Round a number
 # 13. Round 17.56 to the nearest whole number.
 # 14. Round 123.789 to the nearest tenth.
-
+a8 = 17.56
+b8 = 123.789
+print(round(a8))
+print(round(b8))
 # ### Absolute Value
 # 15. Find the absolute value of -134.
 # 16. What is the absolute value of -15.7?
-
+a9 = -134
+b9 = -15.7
+print(abs(a9))
+print(abs(b9))
 # ### Order of Operations
 # 17. Evaluate the expression: \( 5 + 3 \times 4 - 2^2 \).
 # 18. Calculate \( 12 \div 4 + 7 - 2 \times 3 \).
-
+addthis = 5+3
+powerr = 2^2
+print(addthis/4-powerr)
+print(((5+3)*4)-2^2)
+print((12)/(4+7-2*3))
 # ### Special Math Libraries
 # **Floor Method**
 # 19. Round down the number 17.89 to the nearest whole number.
+c1 = 17.89
+print(math.floor(c1))
 # 20. What is the floor value of 45.01?
-
+d1 = 45.01
+print(math.floor(d1))
 # **Ceil Method**
 # 21. Round up the number 23.01 to the nearest whole number.
 # 22. What is the ceiling value of 67.67?
-
+c2 = 23.01
+d2 = 67.67
+print(math.ceil(c2))
+print(math.ceil(d2))
 # **Sqrt Method**
 # 23. Find the square root of 144.
 # 24. Calculate the square root of 169.
